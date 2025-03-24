@@ -39,5 +39,6 @@ Lists all receipts stored in the database.
 Retrieves details of a specific receipt by its ID.
 
 6. **/**
+
 Swagger api documentation
 
