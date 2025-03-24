@@ -1,2 +1,7 @@
 input
 .env
+receipt_manager/__pycache__
+apps/receipts/utils/__pycache__
+apps/receipts/migrations/__pycache__
+.venv
+.vscode

@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'receipt_manager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'receipts.db',
     }
 }
 
@@ -150,5 +150,6 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API for managing Reciept posts, get..',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
-    'SWAGGER': '2.0'
+    # 'SWAGGER': '2.0'
+    'OPENAPI': '3.1.0',
 }

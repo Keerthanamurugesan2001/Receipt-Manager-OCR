@@ -10,6 +10,7 @@ from .models import ReceiptFile, Receipt
 from .serializers import (ReceiptFileSerializer, ReceiptSerializer, FileUploadSerializer, GetFileSerializer)
 from .utils.common import is_valid_pdf, extract_text_from_pdf
 
+
 class ReceiptFileUploadView(APIView):
     """ 
     Upload Receipt file
