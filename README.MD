@@ -30,6 +30,16 @@ Extracts receipt details using OCR/AI.
 Stores extracted information in the receipt table.
 Marks is_processed as True in the receipt_file table.
 
+**Functionality:**
+
+**EasyOCR** is used to extract text from the uploaded receipt PDF.
+
+**Gemini** is used for AI-driven processing of the extracted text to identify and organize receipt data.
+
+Stores extracted information such as merchant name, amount, date, and other relevant details in the receipt table.
+
+Marks is_processed as True in the receipt_file table.
+
 4. **/receipts (GET)**
 
 Lists all receipts stored in the database.
